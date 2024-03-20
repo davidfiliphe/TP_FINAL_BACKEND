@@ -9,4 +9,5 @@
 $pdo = new PDO("sqlite:estoque.db");
 
 $pdo->query($queryIniciaEstoque);
-  ?>
+ 
+?>

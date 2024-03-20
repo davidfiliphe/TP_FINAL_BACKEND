@@ -1,4 +1,5 @@
 <?php 
+
     echo $_GET["nome"];
 
     $pdo = new PDO("sqlite:estoque.db");
@@ -7,4 +8,5 @@
 	VALUES (\"".$_GET["nome"]."\")";
 
     $pdo->query($queryInsereCategoria);
+
 ?>
